@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Styling the container */
+.typing-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+/* Styling the text */
+.typing-text {
+  display: inline-block;
+  overflow: hidden; /* Ensures the text doesn't overflow */
+  border-right: .15em solid orange; /* Creates the typing cursor */
+  white-space: nowrap; /* Ensures the text stays on one line */
+  margin: 0 auto; /* Centers the text */
+  animation: typing-animation 2s steps(40) infinite alternate; /* Typing animation */
+}
+
+/* CSS animation for typing effect */
+@keyframes typing-animation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
